@@ -1,15 +1,10 @@
-# Python
 __pycache__/
 *.py[cod]
 *.so
-
-# Virtual Environments
 .env
 .venv
 env/
 venv/
-
-# Django stuff
 *.log
 *.pot
 *.pyc
@@ -17,26 +12,19 @@ db.sqlite3
 db.sqlite3-journal
 media/
 local_settings.py
-
-# pytest & coverage
 .pytest_cache/
 .coverage
 htmlcov/
 *.cover
 coverage.xml
-
-# VSCode / PyCharm
 .vscode/
 .idea/
-
-# Build artifacts
 build/
 dist/
 *.egg-info/
-
-# MyPy / Ruff / Static analyzers
 .mypy_cache/
 .ruff_cache/
-
-# Jupyter
 .ipynb_checkpoints/
+url_shortener_app/migrations/*.py
+!url_shortener_app/migrations/__init__.py
+
